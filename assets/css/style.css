@@ -94,12 +94,58 @@ header{
     transition-duration: 0.2s;
     transform: scale(1.2);
     background-color: rgba(255, 255, 255, 0);
-}
-.contato{
+} 
+.contato h2{
     padding-top: 240px;
     text-align: center;
     color: #666666;
     font-weight: 700;
     font-style: normal;
     font-size: 40px;
+}
+
+
+
+.formulario .form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.formulario label {
+  flex: 0 0 120px;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.formulario input,
+.formulario textarea {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.formulario textarea {
+  min-height: 100px;
+}
+
+#btnEnviar {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 25px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer p{
+    text-align: center;
+    padding-top: 20px;
+    text-align: center;
+    color: #666666;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
 }
