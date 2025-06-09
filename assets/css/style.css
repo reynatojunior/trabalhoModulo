@@ -53,5 +53,26 @@
     object-fit: cover;
 }
 .stacks{
-    
+    padding-top: 240px;
+    text-align: center;
+    color: #666666;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+.stack-img{
+    background-color: rgba(255, 255, 255, 0);
+}
+.stack-img img:hover{
+    transition-duration: 0.2s;
+    transform: scale(1.2);
+    background-color: rgba(255, 255, 255, 0);
+}
+.interesses{
+    padding-top: 240px;
+    text-align: center;
+    color: #666666;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
 }
