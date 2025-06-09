@@ -1,0 +1,28 @@
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+.menu-itens {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  font-size: 20px;
+  list-style: none;
+}
+.menu-itens a {
+    text-transform: uppercase;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #666666;
+}
+.menu-social{
+    display: flex;
+    padding: 10px;
+    max-height: 20px;
+}
+.menu-social a{
+    margin: 0 15px;
+}
+
