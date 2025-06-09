@@ -17,6 +17,10 @@
   text-decoration: none;
   color: #666666;
 }
+.menu-itens a:hover{
+    color: #1f1e1e;
+    
+}
 .menu-social{
     display: flex;
     padding: 10px;
@@ -25,4 +29,29 @@
 .menu-social a{
     margin: 0 15px;
 }
-
+.sobre{
+    display: flex;
+    padding-top: 240px;
+    max-width: 1204px;
+    margin: 0 auto;
+}
+.texto-sobre {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: #42446e;
+} 
+.foto-sobre{
+    display: flex;
+    margin-left: 20%;
+}
+.foto-sobre img{
+    border: solid 10px black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50% ;
+    object-fit: cover;
+}
+.stacks{
+    
+}
